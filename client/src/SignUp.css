@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  min-height: 100vh;
+  background:white;
+}
+
+.A1 {
+  padding: 25px;
+  background: black;
+  max-width: 500%;
+  width: 170%;
+  border-radius: 7px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.A1 h2 {
+  font-size: 27px;
+  text-align: center;
+  margin: 0px 0 30px;
+}
+
+.A1 .form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.A1 label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.A1 input,
+.A1 select {
+  height: 45px;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  outline: none;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #bfbfbf;
+}
+
+.A1 input:focus,
+.A1 select:focus {
+  border-color: #9a9a9a;
+}
+
+.A1 input.error,
+.A1 select.error {
+  border-color: #f91919;
+  background: #f9f0f1;
+}
+
+.A1 small {
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+  color: #f91919;
+}
+
+.A1 .password i {
+  position: absolute;
+  right: 0px;
+  height: 45px;
+  top: 28px;
+  font-size: 13px;
+  line-height: 45px;
+  width: 45px;
+  cursor: pointer;
+  color: #939393;
+  text-align: center;
+}
+
+.A1 .submit-btn {
+  margin-top: 30px;
+}
+
+.A1 .submit-btn input {
+  color: white;
+  border: none;
+  height: auto;
+  font-size: 16px;
+  padding: 13px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  background: #1BB295;
+  transition: 0.2s ease;
+}
+
+.A1 .submit-btn input:hover {
+  background: #179b81;
+}
+
+.form-container {
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+.login-button {
+  padding: 10px 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+h2{
+   color: red;
+}
